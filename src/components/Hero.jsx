@@ -11,13 +11,18 @@ const Hero = () => {
           type="button"
           onClick={() => window.open("https://github.com/ngirimana")}
           className="black_btn"
-        >Schadrack</button>
+        >
+          Schadrack
+        </button>
       </nav>
       <h1 className="head_text">
-      Summarize Articles with <br className="max-md:hidden"/>
-      <span className="orange_gradient">OpenAI GPT-4</span>
-
+        Summarize Articles with <br className="max-md:hidden" />
+        <span className="orange_gradient">OpenAI GPT-4</span>
       </h1>
+      <h2 className="desc">
+        Simplify your reading with summarizer, an open-source article summarizer
+        that transform lengthy articles into clear and concise summaries
+      </h2>
     </header>
   );
 };
