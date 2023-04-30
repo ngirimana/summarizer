@@ -1,0 +1,22 @@
+/* eslint-disable no-unused-vars */
+import React from "react";
+import Hero from "./components/Hero";
+import Demo from "./components/Demo";
+import "./App.css";
+
+const App = () => {
+  return (
+    <main>
+      <div className="main">
+        <div className="gradient" />
+      </div>
+      c
+      <div className="app">
+        <Hero />
+        <Demo />
+      </div>
+    </main>
+  );
+};
+
+export default App;
